@@ -1,0 +1,463 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA#0_SIGNAL
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  (padstack PS0
+   (shape (circ TOP 203200 0 0))
+   (shape (circ I1 203200 0 0))
+   (shape (circ I2 203200 0 0))
+   (shape (circ I3 203200 0 0))
+   (shape (circ I4 203200 0 0))
+   (shape (circ I5 203200 0 0))
+   (shape (circ I6 203200 0 0))
+   (shape (circ I7 203200 0 0))
+   (shape (circ I8 203200 0 0))
+   (shape (circ I9 203200 0 0))
+   (shape (circ I10 203200 0 0))
+   (shape (circ I11 203200 0 0))
+   (shape (circ I12 203200 0 0))
+   (shape (circ I13 203200 0 0))
+   (shape (circ I14 203200 0 0))
+   (shape (circ BOT 203200 0 0))
+  )
+  )
+  (network_out
+   (Net {NC} 
+   (wire (path TOP 165100  -5500000 6285390 -5500000 6285390 -2692898 6285390
+     -2470374 6507914 -2470374 7125109 -2422898 7172585 -1995608 7172585
+     -1995608 7495608 -2000000 7500000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 165100  -6000000 5500000 -6000000 5000000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 165100  -6250000 5500000 -6250000 5000000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 165100  -8250000 7500000 -8250000 8167644 -8643976 8167644
+     -9097645 7713975 -9097645 4943708 -8353937 4200000 -3903050 4200000
+     -3000000 5103050 -3000000 5500000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 165100  -8500000 7500000 -8500000 7036656 -8556656 6980000
+     -8740000 6980000 -8740000 6160000 -8440000 5860000 -7090000 5860000
+     -6944847 5714847 -6944847 4844848 -6809999 4710000 -5033520 4710000
+     -4500000 5243520 -4500000 5500000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 165100  -7500000 7500000 -7500000 6294157 -7380546 6174703
+     -7301377 6095534 -6562468 6095534 -6298572 5831638 -5896130 5831638
+     -3331638 5831638 -3250000 5750000 -3250000 5500000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 165100  -6000000 6750000 -6000000 7315781 -6184219 7500000
+     -7000000 7500000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 165100  -7750000 7500000 -7750000 7750000 -6071004 7750000
+     -5448514 7127510 -2837109 7127510 -2750000 7040401 -2750000 6750000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 165100  -8500000 5500000 -8500000 5089032 -7870968 4460000
+     -4560000 4460000 -4000000 5020000 -4000000 5500000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 165100  -8000000 7500000 -8000000 8582819 -8237181 8820000
+     -8670000 8820000 -9408918 8081082 -9408918 4774441 -8544477 3910000
+     -3467336 3910000 -2750000 4627336 -2750000 5500000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 165100  -4250000 10250000 -4250000 10750000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 165100  -4000000 10250000 -4000000 10750000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 165100  -5500000 6750000 -5500000 6285390)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 165100  -7250000 7500000 -7250000 6525768 -7110052 6385820
+     -6258988 6385820 -5942312 6069144 -5619039 6069144 -5500000 6188183
+     -5500000 6285390)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   )
+   (Net {NC-1} 
+   (via PS0 -8500000 7500000 (net {NC-1} )
+    (type protect))
+   )
+   (Net {NC-2} 
+   (via PS0 -8250000 7500000 (net {NC-2} )
+    (type protect))
+   )
+   (Net {NC-3} 
+   (via PS0 -8000000 7500000 (net {NC-3} )
+    (type protect))
+   )
+   (Net {NC-4} 
+   (via PS0 -7750000 7500000 (net {NC-4} )
+    (type protect))
+   )
+   (Net {NC-5} 
+   (via PS0 -7500000 7500000 (net {NC-5} )
+    (type protect))
+   )
+   (Net {NC-6} 
+   (via PS0 -8500000 5500000 (net {NC-6} )
+    (type protect))
+   )
+   (Net {NC-7} 
+   (via PS0 -8250000 5500000 (net {NC-7} )
+    (type protect))
+   )
+   (Net {NC-8} 
+   (via PS0 -8000000 5500000 (net {NC-8} )
+    (type protect))
+   )
+   (Net {NC-9} 
+   (via PS0 -7750000 5500000 (net {NC-9} )
+    (type protect))
+   )
+   (Net {NC-10} 
+   (via PS0 -7500000 5500000 (net {NC-10} )
+    (type protect))
+   )
+   (Net {NC-11} 
+   (via PS0 -7250000 7500000 (net {NC-11} )
+    (type protect))
+   )
+   (Net {NC-12} 
+   (via PS0 -6250000 6750000 (net {NC-12} )
+    (type protect))
+   )
+   (Net {NC-13} 
+   (via PS0 -6000000 6750000 (net {NC-13} )
+    (type protect))
+   )
+   (Net {NC-14} 
+   (via PS0 -5750000 6750000 (net {NC-14} )
+    (type protect))
+   )
+   (Net {NC-15} 
+   (via PS0 -5500000 6750000 (net {NC-15} )
+    (type protect))
+   )
+   (Net {NC-16} 
+   (via PS0 -5250000 6750000 (net {NC-16} )
+    (type protect))
+   )
+   (Net {NC-17} 
+   (via PS0 -5000000 6750000 (net {NC-17} )
+    (type protect))
+   )
+   (Net {NC-18} 
+   (via PS0 -4750000 6750000 (net {NC-18} )
+    (type protect))
+   )
+   (Net {NC-19} 
+   (via PS0 -4500000 6750000 (net {NC-19} )
+    (type protect))
+   )
+   (Net {NC-20} 
+   (via PS0 -4250000 6750000 (net {NC-20} )
+    (type protect))
+   )
+   (Net {NC-21} 
+   (via PS0 -4000000 6750000 (net {NC-21} )
+    (type protect))
+   )
+   (Net {NC-22} 
+   (via PS0 -3750000 6750000 (net {NC-22} )
+    (type protect))
+   )
+   (Net {NC-23} 
+   (via PS0 -3500000 6750000 (net {NC-23} )
+    (type protect))
+   )
+   (Net {NC-24} 
+   (via PS0 -3250000 6750000 (net {NC-24} )
+    (type protect))
+   )
+   (Net {NC-25} 
+   (via PS0 -3000000 6750000 (net {NC-25} )
+    (type protect))
+   )
+   (Net {NC-26} 
+   (via PS0 -2750000 6750000 (net {NC-26} )
+    (type protect))
+   )
+   (Net {NC-27} 
+   (via PS0 -6250000 5500000 (net {NC-27} )
+    (type protect))
+   )
+   (Net {NC-28} 
+   (via PS0 -6000000 5500000 (net {NC-28} )
+    (type protect))
+   )
+   (Net {NC-29} 
+   (via PS0 -5750000 5500000 (net {NC-29} )
+    (type protect))
+   )
+   (Net {NC-30} 
+   (via PS0 -5500000 5500000 (net {NC-30} )
+    (type protect))
+   )
+   (Net {NC-31} 
+   (via PS0 -5250000 5500000 (net {NC-31} )
+    (type protect))
+   )
+   (Net {NC-32} 
+   (via PS0 -5000000 5500000 (net {NC-32} )
+    (type protect))
+   )
+   (Net {NC-33} 
+   (via PS0 -4750000 5500000 (net {NC-33} )
+    (type protect))
+   )
+   (Net {NC-34} 
+   (via PS0 -4500000 5500000 (net {NC-34} )
+    (type protect))
+   )
+   (Net {NC-35} 
+   (via PS0 -4250000 5500000 (net {NC-35} )
+    (type protect))
+   )
+   (Net {NC-36} 
+   (via PS0 -4000000 5500000 (net {NC-36} )
+    (type protect))
+   )
+   (Net {NC-37} 
+   (via PS0 -3750000 5500000 (net {NC-37} )
+    (type protect))
+   )
+   (Net {NC-38} 
+   (via PS0 -3500000 5500000 (net {NC-38} )
+    (type protect))
+   )
+   (Net {NC-39} 
+   (via PS0 -3250000 5500000 (net {NC-39} )
+    (type protect))
+   )
+   (Net {NC-40} 
+   (via PS0 -3000000 5500000 (net {NC-40} )
+    (type protect))
+   )
+   (Net {NC-41} 
+   (via PS0 -2750000 5500000 (net {NC-41} )
+    (type protect))
+   )
+   (Net {NC-42} 
+   (via PS0 -7000000 7500000 (net {NC-42} )
+    (type protect))
+   )
+   (Net {NC-43} 
+   (via PS0 -6250000 5000000 (net {NC-43} )
+    (type protect))
+   )
+   (Net {NC-44} 
+   (via PS0 -6000000 5000000 (net {NC-44} )
+    (type protect))
+   )
+   (Net {NC-45} 
+   (via PS0 -7250000 5500000 (net {NC-45} )
+    (type protect))
+   )
+   (Net {NC-46} 
+   (via PS0 -5500000 7500000 (net {NC-46} )
+    (type protect))
+   )
+   (Net {NC-47} 
+   (via PS0 -5250000 7500000 (net {NC-47} )
+    (type protect))
+   )
+   (Net {NC-48} 
+   (via PS0 -5000000 7500000 (net {NC-48} )
+    (type protect))
+   )
+   (Net {NC-49} 
+   (via PS0 -4750000 7500000 (net {NC-49} )
+    (type protect))
+   )
+   (Net {NC-50} 
+   (via PS0 -4250000 7500000 (net {NC-50} )
+    (type protect))
+   )
+   (Net {NC-51} 
+   (via PS0 -4500000 7500000 (net {NC-51} )
+    (type protect))
+   )
+   (Net {NC-52} 
+   (via PS0 -4000000 7500000 (net {NC-52} )
+    (type protect))
+   )
+   (Net {NC-53} 
+   (via PS0 -3750000 7500000 (net {NC-53} )
+    (type protect))
+   )
+   (Net {NC-54} 
+   (via PS0 -3500000 7500000 (net {NC-54} )
+    (type protect))
+   )
+   (Net {NC-55} 
+   (via PS0 -3250000 7500000 (net {NC-55} )
+    (type protect))
+   )
+   (Net {NC-56} 
+   (via PS0 -3000000 7500000 (net {NC-56} )
+    (type protect))
+   )
+   (Net {NC-57} 
+   (via PS0 -2750000 7500000 (net {NC-57} )
+    (type protect))
+   )
+   (Net {NC-58} 
+   (via PS0 -2500000 7500000 (net {NC-58} )
+    (type protect))
+   )
+   (Net {NC-59} 
+   (via PS0 -2250000 7500000 (net {NC-59} )
+    (type protect))
+   )
+   (Net {NC-60} 
+   (via PS0 -2000000 7500000 (net {NC-60} )
+    (type protect))
+   )
+   (Net {NC-61} 
+   (via PS0 -5000000 10250000 (net {NC-61} )
+    (type protect))
+   )
+   (Net {NC-62} 
+   (via PS0 -5250000 10250000 (net {NC-62} )
+    (type protect))
+   )
+   (Net {NC-63} 
+   (via PS0 -5500000 10250000 (net {NC-63} )
+    (type protect))
+   )
+   (Net {NC-64} 
+   (via PS0 -4750000 10250000 (net {NC-64} )
+    (type protect))
+   )
+   (Net {NC-65} 
+   (via PS0 -4500000 10250000 (net {NC-65} )
+    (type protect))
+   )
+   (Net {NC-66} 
+   (via PS0 -4250000 10250000 (net {NC-66} )
+    (type protect))
+   )
+   (Net {NC-67} 
+   (via PS0 -4000000 10250000 (net {NC-67} )
+    (type protect))
+   )
+   (Net {NC-68} 
+   (via PS0 -3750000 10250000 (net {NC-68} )
+    (type protect))
+   )
+   (Net {NC-69} 
+   (via PS0 -3500000 10250000 (net {NC-69} )
+    (type protect))
+   )
+   (Net {NC-70} 
+   (via PS0 -3250000 10250000 (net {NC-70} )
+    (type protect))
+   )
+   (Net {NC-71} 
+   (via PS0 -3000000 10250000 (net {NC-71} )
+    (type protect))
+   )
+   (Net {NC-72} 
+   (via PS0 -2750000 10250000 (net {NC-72} )
+    (type protect))
+   )
+   (Net {NC-73} 
+   (via PS0 -2500000 10250000 (net {NC-73} )
+    (type protect))
+   )
+   (Net {NC-74} 
+   (via PS0 -2250000 10250000 (net {NC-74} )
+    (type protect))
+   )
+   (Net {NC-75} 
+   (via PS0 -2000000 10250000 (net {NC-75} )
+    (type protect))
+   )
+   (Net {NC-76} 
+   (via PS0 -4250000 10750000 (net {NC-76} )
+    (type protect))
+   )
+   (Net {NC-77} 
+   (via PS0 -4000000 10750000 (net {NC-77} )
+    (type protect))
+   )
+  )
+ )
